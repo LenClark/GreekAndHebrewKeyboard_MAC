@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3CE4D925921B4A00D6CE32 /* KeyActions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3CE4D825921B4A00D6CE32 /* KeyActions.jpg */; };
+		BF3CE4DF2592390D00D6CE32 /* frmPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3CE4DD2592390D00D6CE32 /* frmPreferences.m */; };
+		BF3CE4E02592390D00D6CE32 /* frmPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3CE4DE2592390D00D6CE32 /* frmPreferences.xib */; };
+		BF5FFA0D2584F9CF00E909DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFA0C2584F9CF00E909DB /* AppDelegate.m */; };
+		BF5FFA0F2584F9D100E909DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA0E2584F9D100E909DB /* Assets.xcassets */; };
+		BF5FFA122584F9D100E909DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA102584F9D100E909DB /* MainMenu.xib */; };
+		BF5FFA152584F9D100E909DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5FFA142584F9D100E909DB /* main.m */; };
+		BF5FFA302584FC0800E909DB /* blank96w.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA202584FC0600E909DB /* blank96w.png */; };
+		BF5FFA312584FC0800E909DB /* space310w.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA212584FC0600E909DB /* space310w.png */; };
+		BF5FFA322584FC0800E909DB /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA222584FC0600E909DB /* blank.png */; };
+		BF5FFA332584FC0800E909DB /* space300w.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA232584FC0600E909DB /* space300w.png */; };
+		BF5FFA342584FC0800E909DB /* blank47.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA242584FC0600E909DB /* blank47.png */; };
+		BF5FFA352584FC0800E909DB /* blank48c.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA252584FC0700E909DB /* blank48c.png */; };
+		BF5FFA362584FC0800E909DB /* GkKeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA262584FC0700E909DB /* GkKeys.jpg */; };
+		BF5FFA372584FC0800E909DB /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA272584FC0700E909DB /* arrows.png */; };
+		BF5FFA382584FC0800E909DB /* lightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA282584FC0700E909DB /* lightOn.png */; };
+		BF5FFA392584FC0800E909DB /* blank47old.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA292584FC0700E909DB /* blank47old.png */; };
+		BF5FFA3B2584FC0800E909DB /* lightOff.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA2B2584FC0700E909DB /* lightOff.png */; };
+		BF5FFA3C2584FC0800E909DB /* blank64w.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA2C2584FC0700E909DB /* blank64w.png */; };
+		BF5FFA3D2584FC0800E909DB /* blank48.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA2D2584FC0700E909DB /* blank48.png */; };
+		BF5FFA3E2584FC0800E909DB /* HebKeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA2E2584FC0700E909DB /* HebKeys.jpg */; };
+		BF5FFA3F2584FC0800E909DB /* blank32.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA2F2584FC0700E909DB /* blank32.png */; };
+		BF5FFA4E2584FC6800E909DB /* hebKeyFace copy.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA422584FC6800E909DB /* hebKeyFace copy.txt */; };
+		BF5FFA4F2584FC6800E909DB /* nonprintKeys.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA432584FC6800E909DB /* nonprintKeys.txt */; };
+		BF5FFA502584FC6800E909DB /* gkKeyHintMin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA442584FC6800E909DB /* gkKeyHintMin.txt */; };
+		BF5FFA512584FC6800E909DB /* keyWidths.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA452584FC6800E909DB /* keyWidths.txt */; };
+		BF5FFA522584FC6800E909DB /* gkKeyFaceMin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA462584FC6800E909DB /* gkKeyFaceMin.txt */; };
+		BF5FFA532584FC6800E909DB /* gkKeyHintMaj.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA472584FC6800E909DB /* gkKeyHintMaj.txt */; };
+		BF5FFA542584FC6800E909DB /* hebAccentHints.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA482584FC6800E909DB /* hebAccentHints.txt */; };
+		BF5FFA552584FC6800E909DB /* hebKeyFace.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA492584FC6800E909DB /* hebKeyFace.txt */; };
+		BF5FFA562584FC6800E909DB /* hebKeyHint.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA4A2584FC6800E909DB /* hebKeyHint.txt */; };
+		BF5FFA572584FC6800E909DB /* KeyData.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA4B2584FC6800E909DB /* KeyData.txt */; };
+		BF5FFA582584FC6800E909DB /* hebAccents.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA4C2584FC6800E909DB /* hebAccents.txt */; };
+		BF5FFA592584FC6800E909DB /* gkKeyFaceMaj.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA4D2584FC6800E909DB /* gkKeyFaceMaj.txt */; };
+		BF5FFA652584FCF700E909DB /* 001bKeys.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA5C2584FCF600E909DB /* 001bKeys.jpeg */; };
+		BF5FFA662584FCF700E909DB /* 001c_Shifted_View.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA5D2584FCF700E909DB /* 001c_Shifted_View.JPG */; };
+		BF5FFA672584FCF700E909DB /* 003_Hebrew_Physical_Input.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA5E2584FCF700E909DB /* 003_Hebrew_Physical_Input.JPG */; };
+		BF5FFA682584FCF700E909DB /* 002_Greek_Keyboard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA5F2584FCF700E909DB /* 002_Greek_Keyboard.JPG */; };
+		BF5FFA692584FCF700E909DB /* 002b_Shifted_View.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA602584FCF700E909DB /* 002b_Shifted_View.JPG */; };
+		BF5FFA6A2584FCF700E909DB /* 005_Preferences.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA612584FCF700E909DB /* 005_Preferences.jpg */; };
+		BF5FFA6B2584FCF700E909DB /* 001_Initial_View.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA622584FCF700E909DB /* 001_Initial_View.JPG */; };
+		BF5FFA6C2584FCF700E909DB /* feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BF5FFA632584FCF700E909DB /* feedback.png */; };
+		BF8037492594BC0400921EFD /* Help.html in Resources */ = {isa = PBXBuildFile; fileRef = BF8037482594BC0400921EFD /* Help.html */; };
+		BF80374D2594BCB400921EFD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF80374C2594BCB400921EFD /* WebKit.framework */; };
+		BF8037512594BCF500921EFD /* frmHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = BF80374F2594BCF500921EFD /* frmHelp.m */; };
+		BF8037522594BCF500921EFD /* frmHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF8037502594BCF500921EFD /* frmHelp.xib */; };
+		BF8037562594D35500921EFD /* 002_Hebrew_Keyboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8037552594D35500921EFD /* 002_Hebrew_Keyboard.jpg */; };
+		BF8037592594D3AE00921EFD /* 004_Greek_Physical_Input.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF8037582594D3AE00921EFD /* 004_Greek_Physical_Input.jpg */; };
+		BF80375C2594D3F500921EFD /* 006 Arrow Cursor movements.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF80375B2594D3F500921EFD /* 006 Arrow Cursor movements.jpg */; };
+		BF80375F2594D42D00921EFD /* Word options.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF80375E2594D42C00921EFD /* Word options.jpg */; };
+		BF809E0F2593830400CAD9A7 /* frmAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = BF809E0D2593830400CAD9A7 /* frmAbout.m */; };
+		BF809E102593830400CAD9A7 /* frmAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF809E0E2593830400CAD9A7 /* frmAbout.xib */; };
+		BF809E13259386E800CAD9A7 /* icon_41B_icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = BF809E12259386E800CAD9A7 /* icon_41B_icon.ico */; };
+		BF9123D3258A4EBA00ED9E84 /* classEnteredTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9123D2258A4EBA00ED9E84 /* classEnteredTextView.m */; };
+		BFA3633825862CC800D1E165 /* classGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA3633725862CC800D1E165 /* classGlobal.m */; };
+		BFA3633E25862D2C00D1E165 /* classGreek.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA3633D25862D2C00D1E165 /* classGreek.m */; };
+		BFA3634425862DDE00D1E165 /* classKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA3634325862DDE00D1E165 /* classKeyboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF3CE4D825921B4A00D6CE32 /* KeyActions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = KeyActions.jpg; path = FromPC/Resources/KeyActions.jpg; sourceTree = SOURCE_ROOT; };
+		BF3CE4DC2592390D00D6CE32 /* frmPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frmPreferences.h; sourceTree = "<group>"; };
+		BF3CE4DD2592390D00D6CE32 /* frmPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = frmPreferences.m; sourceTree = "<group>"; };
+		BF3CE4DE2592390D00D6CE32 /* frmPreferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = frmPreferences.xib; sourceTree = "<group>"; };
+		BF5FFA082584F9CF00E909DB /* GkHebKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GkHebKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5FFA0B2584F9CF00E909DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF5FFA0C2584F9CF00E909DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF5FFA0E2584F9D100E909DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5FFA112584F9D100E909DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BF5FFA132584F9D100E909DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5FFA142584F9D100E909DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5FFA162584F9D100E909DB /* GkHebKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GkHebKeyboard.entitlements; sourceTree = "<group>"; };
+		BF5FFA202584FC0600E909DB /* blank96w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank96w.png; path = ../../../Keyboard/Keyboard/Resources/blank96w.png; sourceTree = "<group>"; };
+		BF5FFA212584FC0600E909DB /* space310w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space310w.png; path = ../../../Keyboard/Keyboard/Resources/space310w.png; sourceTree = "<group>"; };
+		BF5FFA222584FC0600E909DB /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank.png; path = ../../../Keyboard/Keyboard/Resources/blank.png; sourceTree = "<group>"; };
+		BF5FFA232584FC0600E909DB /* space300w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = space300w.png; path = ../../../Keyboard/Keyboard/Resources/space300w.png; sourceTree = "<group>"; };
+		BF5FFA242584FC0600E909DB /* blank47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank47.png; path = ../../../Keyboard/Keyboard/Resources/blank47.png; sourceTree = "<group>"; };
+		BF5FFA252584FC0700E909DB /* blank48c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank48c.png; path = ../../../Keyboard/Keyboard/Resources/blank48c.png; sourceTree = "<group>"; };
+		BF5FFA262584FC0700E909DB /* GkKeys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GkKeys.jpg; path = ../../../Keyboard/Keyboard/Resources/GkKeys.jpg; sourceTree = "<group>"; };
+		BF5FFA272584FC0700E909DB /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrows.png; path = ../../../Keyboard/Keyboard/Resources/arrows.png; sourceTree = "<group>"; };
+		BF5FFA282584FC0700E909DB /* lightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightOn.png; path = ../../../Keyboard/Keyboard/Resources/lightOn.png; sourceTree = "<group>"; };
+		BF5FFA292584FC0700E909DB /* blank47old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank47old.png; path = ../../../Keyboard/Keyboard/Resources/blank47old.png; sourceTree = "<group>"; };
+		BF5FFA2B2584FC0700E909DB /* lightOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lightOff.png; path = ../../../Keyboard/Keyboard/Resources/lightOff.png; sourceTree = "<group>"; };
+		BF5FFA2C2584FC0700E909DB /* blank64w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank64w.png; path = ../../../Keyboard/Keyboard/Resources/blank64w.png; sourceTree = "<group>"; };
+		BF5FFA2D2584FC0700E909DB /* blank48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank48.png; path = ../../../Keyboard/Keyboard/Resources/blank48.png; sourceTree = "<group>"; };
+		BF5FFA2E2584FC0700E909DB /* HebKeys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = HebKeys.jpg; path = ../../../Keyboard/Keyboard/Resources/HebKeys.jpg; sourceTree = "<group>"; };
+		BF5FFA2F2584FC0700E909DB /* blank32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blank32.png; path = ../../../Keyboard/Keyboard/Resources/blank32.png; sourceTree = "<group>"; };
+		BF5FFA422584FC6800E909DB /* hebKeyFace copy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "hebKeyFace copy.txt"; path = "../../../../Keyboard/Keyboard/Resources/KeyData/hebKeyFace copy.txt"; sourceTree = "<group>"; };
+		BF5FFA432584FC6800E909DB /* nonprintKeys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = nonprintKeys.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/nonprintKeys.txt; sourceTree = "<group>"; };
+		BF5FFA442584FC6800E909DB /* gkKeyHintMin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gkKeyHintMin.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/gkKeyHintMin.txt; sourceTree = "<group>"; };
+		BF5FFA452584FC6800E909DB /* keyWidths.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = keyWidths.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/keyWidths.txt; sourceTree = "<group>"; };
+		BF5FFA462584FC6800E909DB /* gkKeyFaceMin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gkKeyFaceMin.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/gkKeyFaceMin.txt; sourceTree = "<group>"; };
+		BF5FFA472584FC6800E909DB /* gkKeyHintMaj.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gkKeyHintMaj.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/gkKeyHintMaj.txt; sourceTree = "<group>"; };
+		BF5FFA482584FC6800E909DB /* hebAccentHints.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hebAccentHints.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/hebAccentHints.txt; sourceTree = "<group>"; };
+		BF5FFA492584FC6800E909DB /* hebKeyFace.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hebKeyFace.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/hebKeyFace.txt; sourceTree = "<group>"; };
+		BF5FFA4A2584FC6800E909DB /* hebKeyHint.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hebKeyHint.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/hebKeyHint.txt; sourceTree = "<group>"; };
+		BF5FFA4B2584FC6800E909DB /* KeyData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = KeyData.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/KeyData.txt; sourceTree = "<group>"; };
+		BF5FFA4C2584FC6800E909DB /* hebAccents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hebAccents.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/hebAccents.txt; sourceTree = "<group>"; };
+		BF5FFA4D2584FC6800E909DB /* gkKeyFaceMaj.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gkKeyFaceMaj.txt; path = ../../../../Keyboard/Keyboard/Resources/KeyData/gkKeyFaceMaj.txt; sourceTree = "<group>"; };
+		BF5FFA5C2584FCF600E909DB /* 001bKeys.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 001bKeys.jpeg; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/001bKeys.jpeg"; sourceTree = "<group>"; };
+		BF5FFA5D2584FCF700E909DB /* 001c_Shifted_View.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 001c_Shifted_View.JPG; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/001c_Shifted_View.JPG"; sourceTree = "<group>"; };
+		BF5FFA5E2584FCF700E909DB /* 003_Hebrew_Physical_Input.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 003_Hebrew_Physical_Input.JPG; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/003_Hebrew_Physical_Input.JPG"; sourceTree = "<group>"; };
+		BF5FFA5F2584FCF700E909DB /* 002_Greek_Keyboard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 002_Greek_Keyboard.JPG; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/002_Greek_Keyboard.JPG"; sourceTree = "<group>"; };
+		BF5FFA602584FCF700E909DB /* 002b_Shifted_View.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 002b_Shifted_View.JPG; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/002b_Shifted_View.JPG"; sourceTree = "<group>"; };
+		BF5FFA612584FCF700E909DB /* 005_Preferences.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 005_Preferences.jpg; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/005_Preferences.jpg"; sourceTree = "<group>"; };
+		BF5FFA622584FCF700E909DB /* 001_Initial_View.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 001_Initial_View.JPG; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/001_Initial_View.JPG"; sourceTree = "<group>"; };
+		BF5FFA632584FCF700E909DB /* feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = feedback.png; path = "../../../../Keyboard/Code from PC/Resources/HelpFiles/feedback.png"; sourceTree = "<group>"; };
+		BF8037482594BC0400921EFD /* Help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Help.html; path = FromPC/Resources/HelpFiles/Help.html; sourceTree = SOURCE_ROOT; };
+		BF80374C2594BCB400921EFD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BF80374E2594BCF500921EFD /* frmHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frmHelp.h; sourceTree = "<group>"; };
+		BF80374F2594BCF500921EFD /* frmHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = frmHelp.m; sourceTree = "<group>"; };
+		BF8037502594BCF500921EFD /* frmHelp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = frmHelp.xib; sourceTree = "<group>"; };
+		BF8037552594D35500921EFD /* 002_Hebrew_Keyboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 002_Hebrew_Keyboard.jpg; path = FromPC/Resources/HelpFiles/002_Hebrew_Keyboard.jpg; sourceTree = SOURCE_ROOT; };
+		BF8037582594D3AE00921EFD /* 004_Greek_Physical_Input.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 004_Greek_Physical_Input.jpg; path = FromPC/Resources/HelpFiles/004_Greek_Physical_Input.jpg; sourceTree = SOURCE_ROOT; };
+		BF80375B2594D3F500921EFD /* 006 Arrow Cursor movements.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "006 Arrow Cursor movements.jpg"; path = "FromPC/Resources/HelpFiles/006 Arrow Cursor movements.jpg"; sourceTree = SOURCE_ROOT; };
+		BF80375E2594D42C00921EFD /* Word options.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Word options.jpg"; path = "FromPC/Resources/HelpFiles/Word options.jpg"; sourceTree = SOURCE_ROOT; };
+		BF809E0C2593830400CAD9A7 /* frmAbout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frmAbout.h; sourceTree = "<group>"; };
+		BF809E0D2593830400CAD9A7 /* frmAbout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = frmAbout.m; sourceTree = "<group>"; };
+		BF809E0E2593830400CAD9A7 /* frmAbout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = frmAbout.xib; sourceTree = "<group>"; };
+		BF809E12259386E800CAD9A7 /* icon_41B_icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon_41B_icon.ico; sourceTree = "<group>"; };
+		BF9123D1258A4EBA00ED9E84 /* classEnteredTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classEnteredTextView.h; sourceTree = "<group>"; };
+		BF9123D2258A4EBA00ED9E84 /* classEnteredTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classEnteredTextView.m; sourceTree = "<group>"; };
+		BFA3633625862CC800D1E165 /* classGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classGlobal.h; sourceTree = "<group>"; };
+		BFA3633725862CC800D1E165 /* classGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classGlobal.m; sourceTree = "<group>"; };
+		BFA3633C25862D2C00D1E165 /* classGreek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classGreek.h; sourceTree = "<group>"; };
+		BFA3633D25862D2C00D1E165 /* classGreek.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classGreek.m; sourceTree = "<group>"; };
+		BFA3634225862DDE00D1E165 /* classKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classKeyboard.h; sourceTree = "<group>"; };
+		BFA3634325862DDE00D1E165 /* classKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classKeyboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5FFA052584F9CF00E909DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF80374D2594BCB400921EFD /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3CE4DB259238DE00D6CE32 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				BF3CE4DC2592390D00D6CE32 /* frmPreferences.h */,
+				BF3CE4DD2592390D00D6CE32 /* frmPreferences.m */,
+				BF3CE4DE2592390D00D6CE32 /* frmPreferences.xib */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		BF5FF9FF2584F9CF00E909DB = {
+			isa = PBXGroup;
+			children = (
+				BF3CE4DB259238DE00D6CE32 /* Preferences */,
+				BF5FFA1D2584FB2700E909DB /* Resources */,
+				BF5FFA0A2584F9CF00E909DB /* GkHebKeyboard */,
+				BF5FFA092584F9CF00E909DB /* Products */,
+				BF80374B2594BCB300921EFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5FFA092584F9CF00E909DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FFA082584F9CF00E909DB /* GkHebKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5FFA0A2584F9CF00E909DB /* GkHebKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BF809E0B259382EE00CAD9A7 /* Help */,
+				BF9123D0258A4E6200ED9E84 /* MouseAndKeys */,
+				BFA3634125862DC700D1E165 /* Keyboard */,
+				BFA3633B25862D1000D1E165 /* Greek */,
+				BFA3633525862C9800D1E165 /* Global */,
+				BF5FFA0B2584F9CF00E909DB /* AppDelegate.h */,
+				BF5FFA0C2584F9CF00E909DB /* AppDelegate.m */,
+				BF5FFA0E2584F9D100E909DB /* Assets.xcassets */,
+				BF5FFA102584F9D100E909DB /* MainMenu.xib */,
+				BF5FFA132584F9D100E909DB /* Info.plist */,
+				BF5FFA142584F9D100E909DB /* main.m */,
+				BF5FFA162584F9D100E909DB /* GkHebKeyboard.entitlements */,
+			);
+			path = GkHebKeyboard;
+			sourceTree = "<group>";
+		};
+		BF5FFA1D2584FB2700E909DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF3CE4D825921B4A00D6CE32 /* KeyActions.jpg */,
+				BF5FFA272584FC0700E909DB /* arrows.png */,
+				BF5FFA222584FC0600E909DB /* blank.png */,
+				BF5FFA2F2584FC0700E909DB /* blank32.png */,
+				BF5FFA242584FC0600E909DB /* blank47.png */,
+				BF5FFA292584FC0700E909DB /* blank47old.png */,
+				BF5FFA2D2584FC0700E909DB /* blank48.png */,
+				BF5FFA252584FC0700E909DB /* blank48c.png */,
+				BF5FFA2C2584FC0700E909DB /* blank64w.png */,
+				BF5FFA202584FC0600E909DB /* blank96w.png */,
+				BF5FFA262584FC0700E909DB /* GkKeys.jpg */,
+				BF5FFA2E2584FC0700E909DB /* HebKeys.jpg */,
+				BF5FFA2B2584FC0700E909DB /* lightOff.png */,
+				BF5FFA282584FC0700E909DB /* lightOn.png */,
+				BF5FFA232584FC0600E909DB /* space300w.png */,
+				BF5FFA212584FC0600E909DB /* space310w.png */,
+				BF5FFA1F2584FBAE00E909DB /* HelpFiles */,
+				BF5FFA1E2584FB9F00E909DB /* KeyData */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF5FFA1E2584FB9F00E909DB /* KeyData */ = {
+			isa = PBXGroup;
+			children = (
+				BF5FFA4D2584FC6800E909DB /* gkKeyFaceMaj.txt */,
+				BF5FFA462584FC6800E909DB /* gkKeyFaceMin.txt */,
+				BF5FFA472584FC6800E909DB /* gkKeyHintMaj.txt */,
+				BF5FFA442584FC6800E909DB /* gkKeyHintMin.txt */,
+				BF5FFA482584FC6800E909DB /* hebAccentHints.txt */,
+				BF5FFA4C2584FC6800E909DB /* hebAccents.txt */,
+				BF5FFA422584FC6800E909DB /* hebKeyFace copy.txt */,
+				BF5FFA492584FC6800E909DB /* hebKeyFace.txt */,
+				BF5FFA4A2584FC6800E909DB /* hebKeyHint.txt */,
+				BF5FFA4B2584FC6800E909DB /* KeyData.txt */,
+				BF5FFA452584FC6800E909DB /* keyWidths.txt */,
+				BF5FFA432584FC6800E909DB /* nonprintKeys.txt */,
+			);
+			path = KeyData;
+			sourceTree = "<group>";
+		};
+		BF5FFA1F2584FBAE00E909DB /* HelpFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BF80375E2594D42C00921EFD /* Word options.jpg */,
+				BF80375B2594D3F500921EFD /* 006 Arrow Cursor movements.jpg */,
+				BF8037582594D3AE00921EFD /* 004_Greek_Physical_Input.jpg */,
+				BF8037552594D35500921EFD /* 002_Hebrew_Keyboard.jpg */,
+				BF8037482594BC0400921EFD /* Help.html */,
+				BF809E12259386E800CAD9A7 /* icon_41B_icon.ico */,
+				BF5FFA622584FCF700E909DB /* 001_Initial_View.JPG */,
+				BF5FFA5C2584FCF600E909DB /* 001bKeys.jpeg */,
+				BF5FFA5D2584FCF700E909DB /* 001c_Shifted_View.JPG */,
+				BF5FFA5F2584FCF700E909DB /* 002_Greek_Keyboard.JPG */,
+				BF5FFA602584FCF700E909DB /* 002b_Shifted_View.JPG */,
+				BF5FFA5E2584FCF700E909DB /* 003_Hebrew_Physical_Input.JPG */,
+				BF5FFA612584FCF700E909DB /* 005_Preferences.jpg */,
+				BF5FFA632584FCF700E909DB /* feedback.png */,
+			);
+			path = HelpFiles;
+			sourceTree = "<group>";
+		};
+		BF80374B2594BCB300921EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF80374C2594BCB400921EFD /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF809E0B259382EE00CAD9A7 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				BF809E0C2593830400CAD9A7 /* frmAbout.h */,
+				BF809E0D2593830400CAD9A7 /* frmAbout.m */,
+				BF809E0E2593830400CAD9A7 /* frmAbout.xib */,
+				BF80374E2594BCF500921EFD /* frmHelp.h */,
+				BF80374F2594BCF500921EFD /* frmHelp.m */,
+				BF8037502594BCF500921EFD /* frmHelp.xib */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		BF9123D0258A4E6200ED9E84 /* MouseAndKeys */ = {
+			isa = PBXGroup;
+			children = (
+				BF9123D1258A4EBA00ED9E84 /* classEnteredTextView.h */,
+				BF9123D2258A4EBA00ED9E84 /* classEnteredTextView.m */,
+			);
+			path = MouseAndKeys;
+			sourceTree = "<group>";
+		};
+		BFA3633525862C9800D1E165 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3633625862CC800D1E165 /* classGlobal.h */,
+				BFA3633725862CC800D1E165 /* classGlobal.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		BFA3633B25862D1000D1E165 /* Greek */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3633C25862D2C00D1E165 /* classGreek.h */,
+				BFA3633D25862D2C00D1E165 /* classGreek.m */,
+			);
+			path = Greek;
+			sourceTree = "<group>";
+		};
+		BFA3634125862DC700D1E165 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BFA3634225862DDE00D1E165 /* classKeyboard.h */,
+				BFA3634325862DDE00D1E165 /* classKeyboard.m */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5FFA072584F9CF00E909DB /* GkHebKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5FFA192584F9D100E909DB /* Build configuration list for PBXNativeTarget "GkHebKeyboard" */;
+			buildPhases = (
+				BF5FFA042584F9CF00E909DB /* Sources */,
+				BF5FFA052584F9CF00E909DB /* Frameworks */,
+				BF5FFA062584F9CF00E909DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GkHebKeyboard;
+			productName = GkHebKeyboard;
+			productReference = BF5FFA082584F9CF00E909DB /* GkHebKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5FFA002584F9CF00E909DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					BF5FFA072584F9CF00E909DB = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = BF5FFA032584F9CF00E909DB /* Build configuration list for PBXProject "GkHebKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5FF9FF2584F9CF00E909DB;
+			productRefGroup = BF5FFA092584F9CF00E909DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5FFA072584F9CF00E909DB /* GkHebKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5FFA062584F9CF00E909DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5FFA592584FC6800E909DB /* gkKeyFaceMaj.txt in Resources */,
+				BF5FFA0F2584F9D100E909DB /* Assets.xcassets in Resources */,
+				BF5FFA372584FC0800E909DB /* arrows.png in Resources */,
+				BF5FFA3D2584FC0800E909DB /* blank48.png in Resources */,
+				BF5FFA512584FC6800E909DB /* keyWidths.txt in Resources */,
+				BF5FFA572584FC6800E909DB /* KeyData.txt in Resources */,
+				BF3CE4D925921B4A00D6CE32 /* KeyActions.jpg in Resources */,
+				BF5FFA3C2584FC0800E909DB /* blank64w.png in Resources */,
+				BF8037562594D35500921EFD /* 002_Hebrew_Keyboard.jpg in Resources */,
+				BF3CE4E02592390D00D6CE32 /* frmPreferences.xib in Resources */,
+				BF5FFA4E2584FC6800E909DB /* hebKeyFace copy.txt in Resources */,
+				BF5FFA122584F9D100E909DB /* MainMenu.xib in Resources */,
+				BF5FFA6C2584FCF700E909DB /* feedback.png in Resources */,
+				BF5FFA362584FC0800E909DB /* GkKeys.jpg in Resources */,
+				BF5FFA332584FC0800E909DB /* space300w.png in Resources */,
+				BF5FFA3F2584FC0800E909DB /* blank32.png in Resources */,
+				BF5FFA6B2584FCF700E909DB /* 001_Initial_View.JPG in Resources */,
+				BF5FFA562584FC6800E909DB /* hebKeyHint.txt in Resources */,
+				BF5FFA342584FC0800E909DB /* blank47.png in Resources */,
+				BF809E102593830400CAD9A7 /* frmAbout.xib in Resources */,
+				BF5FFA582584FC6800E909DB /* hebAccents.txt in Resources */,
+				BF5FFA652584FCF700E909DB /* 001bKeys.jpeg in Resources */,
+				BF5FFA302584FC0800E909DB /* blank96w.png in Resources */,
+				BF5FFA532584FC6800E909DB /* gkKeyHintMaj.txt in Resources */,
+				BF5FFA522584FC6800E909DB /* gkKeyFaceMin.txt in Resources */,
+				BF5FFA692584FCF700E909DB /* 002b_Shifted_View.JPG in Resources */,
+				BF80375C2594D3F500921EFD /* 006 Arrow Cursor movements.jpg in Resources */,
+				BF5FFA392584FC0800E909DB /* blank47old.png in Resources */,
+				BF5FFA502584FC6800E909DB /* gkKeyHintMin.txt in Resources */,
+				BF5FFA682584FCF700E909DB /* 002_Greek_Keyboard.JPG in Resources */,
+				BF5FFA312584FC0800E909DB /* space310w.png in Resources */,
+				BF5FFA3E2584FC0800E909DB /* HebKeys.jpg in Resources */,
+				BF5FFA4F2584FC6800E909DB /* nonprintKeys.txt in Resources */,
+				BF5FFA382584FC0800E909DB /* lightOn.png in Resources */,
+				BF8037592594D3AE00921EFD /* 004_Greek_Physical_Input.jpg in Resources */,
+				BF5FFA672584FCF700E909DB /* 003_Hebrew_Physical_Input.JPG in Resources */,
+				BF80375F2594D42D00921EFD /* Word options.jpg in Resources */,
+				BF8037522594BCF500921EFD /* frmHelp.xib in Resources */,
+				BF5FFA662584FCF700E909DB /* 001c_Shifted_View.JPG in Resources */,
+				BF809E13259386E800CAD9A7 /* icon_41B_icon.ico in Resources */,
+				BF5FFA352584FC0800E909DB /* blank48c.png in Resources */,
+				BF5FFA542584FC6800E909DB /* hebAccentHints.txt in Resources */,
+				BF5FFA322584FC0800E909DB /* blank.png in Resources */,
+				BF5FFA3B2584FC0800E909DB /* lightOff.png in Resources */,
+				BF8037492594BC0400921EFD /* Help.html in Resources */,
+				BF5FFA6A2584FCF700E909DB /* 005_Preferences.jpg in Resources */,
+				BF5FFA552584FC6800E909DB /* hebKeyFace.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5FFA042584F9CF00E909DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9123D3258A4EBA00ED9E84 /* classEnteredTextView.m in Sources */,
+				BF3CE4DF2592390D00D6CE32 /* frmPreferences.m in Sources */,
+				BF5FFA152584F9D100E909DB /* main.m in Sources */,
+				BFA3633825862CC800D1E165 /* classGlobal.m in Sources */,
+				BF5FFA0D2584F9CF00E909DB /* AppDelegate.m in Sources */,
+				BF8037512594BCF500921EFD /* frmHelp.m in Sources */,
+				BF809E0F2593830400CAD9A7 /* frmAbout.m in Sources */,
+				BFA3634425862DDE00D1E165 /* classKeyboard.m in Sources */,
+				BFA3633E25862D2C00D1E165 /* classGreek.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF5FFA102584F9D100E909DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5FFA112584F9D100E909DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5FFA172584F9D100E909DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF5FFA182584F9D100E909DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF5FFA1A2584F9D100E909DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GkHebKeyboard/GkHebKeyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				INFOPLIST_FILE = GkHebKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = LFC.GkHebKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5FFA1B2584F9D100E909DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GkHebKeyboard/GkHebKeyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				INFOPLIST_FILE = GkHebKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = LFC.GkHebKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5FFA032584F9CF00E909DB /* Build configuration list for PBXProject "GkHebKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FFA172584F9D100E909DB /* Debug */,
+				BF5FFA182584F9D100E909DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5FFA192584F9D100E909DB /* Build configuration list for PBXNativeTarget "GkHebKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5FFA1A2584F9D100E909DB /* Debug */,
+				BF5FFA1B2584F9D100E909DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF5FFA002584F9CF00E909DB /* Project object */;
+}
